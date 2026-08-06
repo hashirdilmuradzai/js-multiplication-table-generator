@@ -7,11 +7,14 @@ body {
   font-family: "Fredericka the Great", cursive;
   color: #fff;
   background-color: #000;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font-size: 70px;
   text-align: center;
+  margin: 20px;
 }
 
 form {
