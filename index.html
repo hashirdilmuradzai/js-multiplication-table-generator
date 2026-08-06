@@ -5,5 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Multiplication Table Generator</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Multiplication Table</h1>
+    <form onsubmit="printTable(event)">
+      <label for="tableInput">Enter the Number</label>
+      <input
+        type="number"
+        required
+        id="tableNumber"
+        placeholder="Enter the number you want the multiplication table for."
+      />
+      <!-- <label for="tableLimit">Enter the Table Limit</label>
+      <input
+        type="number"
+        required
+        id="tableLimit"
+        placeholder="Enter how far you want the table to be generated."
+      /> -->
+      <button>Generate</button>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
