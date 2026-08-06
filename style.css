@@ -1,0 +1,48 @@
+body {
+  background-image: url("./black-board.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Fredericka the Great", cursive;
+  color: #fff;
+  background-color: #000;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+label {
+  font-size: 35px;
+}
+
+input {
+  padding: 20px;
+  border-radius: 5px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 27px;
+}
+
+button {
+  background: white;
+  padding: 11px 22px;
+  border-radius: 27px;
+  font-size: 27px;
+  border: none;
+  outline: 0;
+  font-family: "Amatic SC", cursive;
+}
+
+p {
+  font-size: 35px;
+  text-align: center;
+}

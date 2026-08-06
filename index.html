@@ -4,26 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Multiplication Table Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Open+Sans+Condensed:700|Oswald:600"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <h1>Multiplication Table</h1>
     <form onsubmit="printTable(event)">
-      <label for="tableInput">Enter the Number</label>
-      <input
-        type="number"
-        required
-        id="tableNumber"
-        placeholder="Enter the number you want the multiplication table for."
-      />
-      <!-- <label for="tableLimit">Enter the Table Limit</label>
-      <input
-        type="number"
-        required
-        id="tableLimit"
-        placeholder="Enter how far you want the table to be generated."
-      /> -->
+      <label for="tableNumber">Enter the Number</label>
+      <input type="number" required id="tableNumber" />
+      <label for="tableLimit">Enter the Table Limit</label>
+      <input type="number" required id="tableLimit" />
       <button>Generate</button>
     </form>
+    <p id="tableOutput"></p>
 
     <script src="./script.js"></script>
   </body>
